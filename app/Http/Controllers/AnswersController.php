@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Answer;
 use DB;
 use Illuminate\Http\Request;
-use App\Http\Resources\BookResource;
+use App\Http\Resources\AnswerResource;
 
 class AnswersController extends Controller
 {

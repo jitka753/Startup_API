@@ -19,7 +19,7 @@ class CreateAnswersTable extends Migration
             $table->float('Slider2');
             $table->unsignedInteger('Answer3');
             $table->unsignedInteger('Answer4');
-           
+            $table->timestamps();
         });
     }
 
